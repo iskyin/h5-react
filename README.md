@@ -1,5 +1,5 @@
-# HTML5 网站
-> A HTML5 project, base on react
+# h5-react
+> HTML5 网站
 
 ## Install Scaffolding tools
 > npm install -g create-react-app
