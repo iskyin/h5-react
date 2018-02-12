@@ -1,0 +1,104 @@
+.login {
+  width: 100%;
+  height: 100%;
+  background: url(../../assets/img/login-bg@2x.png) no-repeat 0 0;
+  background-size: 100% auto;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction:colum;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: flex-start;
+  -webkit-justify-content: flex-start;
+  .logo{
+    width: 2rem;
+    height: 2rem;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0.8rem 0 0 0;
+    text-align: center;
+    line-height: 2rem;
+  }
+  .login_div{
+    width: 6.54rem;
+    height:7.04rem;
+    margin: 0.415rem 0 0 0;
+    background: url(../../assets/img/login-k@2x.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    align-items: center;
+    -webkit-align-items: center;
+    .login_tit{
+      width: 5.23rem;
+      height: .48rem;
+      font-size: .48rem;
+      font-weight: bold;
+      line-height: .48rem;
+      color:#333333;
+      margin: .9rem 0 0 0 ;
+    }
+    .login_list{
+      width: 5.23rem;
+      height: .6rem;
+      display: flex;
+      display: -webkit-flex;
+      flex-direction: row;
+      -webkit-flex-direction: row;
+      justify-content: flex-start;
+      -webkit-justify-content: flex-start;
+      margin-top: .6rem;
+      span{
+        width: .48rem;
+        height: .5rem;
+        display: inline-block;
+        margin-top: .1rem;
+      }
+      input{
+        width: 4.48rem;
+        height: .6rem;
+        margin-left: .2rem;
+        display: inline-block;
+        border: none;
+        border-bottom: 1px solid #e8ebee;
+        font-size: .32rem;
+        color: #333333;
+      }
+      .usr_name{
+        background: url(../../assets/i/login-usr@2x.png) no-repeat center center;
+        background-size: 100% 100%;
+      }
+      .usr_pwd{
+        background: url(../../assets/i/login-pwd@2x.png) no-repeat center center;
+        background-size: 100% 100%;
+      }
+    }
+    .tip{
+      margin: .17rem 0 0 .65rem;
+      width:4.48rem;
+      height: .3rem;
+      line-height: .3rem;
+      font-size: .2rem;
+      color: #333333;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .login_btn{
+      width: 5.36rem;
+      height: 1rem;
+      line-height: 1rem;
+      text-align: center;
+      background: url(../../assets/i/login-btn@2x.png) no-repeat center center;
+      background-size: 100% 100%;
+      border-radius: .1rem;
+      font-size: .32rem;
+      font-weight: bold;
+      color: #fff;
+      margin-top: .45rem;
+    }
+  }
+}
