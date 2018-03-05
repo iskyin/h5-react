@@ -10,19 +10,23 @@
 class InitAppInfo {
 
   constructor(initInfo) {
+
     window.APP_INFO={
       host:'', // 接口地址
       version:'', // 系统版本号
       sysInfo:'', // 系统信息
     }
+
     // 把视觉稿中的px转换成rem
     this.rem(window,initInfo.docWidth);
+
     // 设置 接口地址 + 系统版本号
     this.setAppInfo(initInfo.serverName,initInfo.version);
+
     // 系统信息
     this.setAndroidOrIos();
 
-    console.log('window.APP_INFO ->: ',window.APP_INFO,'window -> : ',window);
+    console.log('window -> : ',window);
 
   }
 

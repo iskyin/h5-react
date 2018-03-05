@@ -9,10 +9,13 @@ new InitAppInfo({ // 初始化APP信息
   version:'00.00.0001', // 版本信息
   docWidth:750, // 设计图宽度
 });
+
+// import store from '@/store/index.js'; //
+
 class App extends Component {
 
   render() {
-    console.log(' > · ');
+    console.log('APP -> ');
     return (
       <div className="app">
         {/* <Me /> */}
